@@ -5,3 +5,7 @@ body {
 .first {
   height: 333px;
 }
+
+a {
+  color: #64b5f6;
+}
