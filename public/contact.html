@@ -5,8 +5,9 @@
   <meta charset="utf-8">
   <title>Kevin Castro's Portfolio</title>
 
-  <!-- Google Font // Raleway -->
+  <!-- Google Font // Raleway && Material Icons-->
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link rel="stylesheet" href="./assets/css/style.css">
@@ -19,7 +20,7 @@
       <div class="container">
         <div class="nav-wrapper">
           <a href="index.html" class="brand-logo">Kevin Castro</a>
-
+          <a href="#" data-target="mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a href="projects.html">Projects</a></li>
             <li><a href="resume.html">Résumé</a></li>
@@ -115,6 +116,14 @@
       </div>
     </div>
   </footer>
+
+  <!-- Sidenav for Mobile -->
+
+  <ul class="sidenav orange lighten-1" id="mobile">
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="resume.html">Résumé</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
 
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
