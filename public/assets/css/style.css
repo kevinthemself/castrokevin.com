@@ -6,6 +6,13 @@ a {
   color: #64b5f6;
 }
 
+/* grabs all of the content in the sidenav and pushes to the right */
+.user-view a :first-child {
+  margin-left: 5%;
+  color: #fff;
+}
+
+/* fix for smaller screens */
 @media only screen and (max-width: 375px) {
   .brand-logo {
     font-size: 1.7em !important;
