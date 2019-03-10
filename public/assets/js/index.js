@@ -1,4 +1,4 @@
-$(document).ready(function () {
-  $('.parallax').parallax();
-  $('.sidenav').sidenav();
+document.addEventListener(function () {
+  document.getElementsByClassName('parallax').parallax();
+  document.getElementsByClassName('sidenav').sidenav();
 });
