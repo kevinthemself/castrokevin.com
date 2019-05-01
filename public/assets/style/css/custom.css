@@ -1,15 +1,55 @@
-body {
-  font-family: 'Raleway', serif;
+body, nav ul a, nav .brand-logo{
+  color: #F0EBF4 !important;
 }
 
-a {
-  color: #64b5f6;
+@font-face {
+  font-family: 'Raleway', serif;
+  font-display: auto;
+  src: url(https://fonts.gstatic.com/s/raleway/v13/1Ptug8zYS_SKggPNyC0IT4ttDfA.woff2) format('woff2');
+}
+
+a.grey-text.text-lighten-4{
+  color: #A1C3D1 !important;
+}
+
+.light-text {
+  color: #F0EBF4 !important;
+}
+
+.blue {
+  background-color: #A1C3D1 !important;
+}
+
+.purple {
+  background-color: #B39BC8 !important;
+}
+
+.red {
+  background-color: #F172A1 !important;
+}
+
+.pink{
+  background-color: #E64398 !important;
+}
+
+.pink-text, .card-action a{
+  color: #E64398 !important;
+}
+
+/* index.html */
+#resume {
+  color: #000;
+}
+
+/* resume.html */
+.collection-item {
+  background: none !important;
 }
 
 /* grabs all of the content in the sidenav and pushes to the right */
 .user-view a :first-child {
   margin-left: 5%;
-  color: #fff;
+  color: #F0EBF4 !important;
 }
 
 /* fix for smaller screens */

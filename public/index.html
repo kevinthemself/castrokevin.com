@@ -1,165 +1,234 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-137270772-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
 
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137270772-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+      gtag('config', 'UA-137270772-1');
+    </script>
 
-    gtag('config', 'UA-137270772-1');
-  </script>
+    <meta charset="utf-8" />
+    <title>Kevin Castro's Portfolio</title>
 
-  <meta charset="utf-8">
-  <title>Kevin Castro's Portfolio</title>
+    <!-- Google Font // Raleway && Material Icons-->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" async> -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+      async
+    />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="./assets/style/css/materialize.min.css"
+      async
+    />
+    <link rel="stylesheet" href="./assets/style/css/custom.css" async />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="assets/style/favicon.ico"
+      async
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="Description"
+      content="Kevin Castro is a Junior Full-stack SDE working primarily in the MERN stack, helping build applications from specifications to implementation by leveraging the latest technologies and frameworks to provide tested, long-lasting applications."
+    />
+  </head>
 
-  <!-- Google Font // Raleway && Material Icons-->
-  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!-- Compiled and minified CSS -->
-  <link rel="stylesheet" href="./assets/style/css/materialize.min.css" async>
-  <link rel="stylesheet" href="./assets/style/css/custom.css" async>
-  <link rel="shortcut icon" type="image/png" href="assets/style/favicon.ico" async/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="Description" content="Kevin Castro is a Junior Full-stack SDE working primarily in the MERN stack, helping build applications from specifications to implementation by leveraging the latest technologies and frameworks to provide tested, long-lasting applications." />
-</head>
+  <body class="blue">
+    <header>
+      <nav class="purple">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Kevin Castro</a>
+            <a href="#" data-target="mobile" class="sidenav-trigger"
+              ><i class="material-icons">menu</i></a
+            >
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href="#">Home</a></li>
+              <li><a href="projects.html">Projects</a></li>
+              <li><a href="resume.html">Résumé</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-<body class="orange lighten-1">
-  <header>
-    <nav class="orange lighten-1">
-      <div class="container">
-        <div class="nav-wrapper">
-          <a href="#" class="brand-logo">Kevin Castro</a>
-          <a href="#" data-target="mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="resume.html">Résumé</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
+    <main>
+      <!-- Parallax Image with Title-->
+      <div class="parallax-container center valign-wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col s12 white-text">
+              <h2 class="pink-text" style="font-size: 5rem;">
+                Hey! I'm Kevin.
+              </h2>
+              <p>SDE @ Team Vibe</p>
+              <p>SDE @ Jubel Health</p>
+              <p>Teaching Assistant @ UCSD Extension</p>
+              <a
+                class="waves-effect waves-light btn-large red"
+                href="resume.html"
+                id="resume"
+                >View Résumé</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="parallax">
+          <img
+            src="https://res.cloudinary.com/castrokev-in/image/upload/f_auto,q_auto/v1536869239/castrokev-in/moon.jpg"
+            alt="Background -- Moon"
+            async
+          />
         </div>
       </div>
-    </nav>
-  </header>
 
-  <main>
-    <!-- Parallax Image with Title-->
-    <div class="parallax-container center valign-wrapper">
-      <div class="container">
-        <div class="row">
-          <div class="col s12 white-text">
-            <h2 class="blue-text text-lighten-2" style="font-size: 5rem;">Hi! I'm Kevin.</h2>
-            <p>Junior SDE @ Team Vibe</p>
-            <p>Contact SDE @ Jubel Health</p>
-            <p>Teaching Assistant @ UCSD Extension</p>
-            <a class="waves-effect waves-light btn-large blue lighten-2" href="resume.html">View Résumé</a>
+      <!-- About Me -->
+      <div class="section blue valign-wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col s12">
+              <h2 class="header">About Me</h2>
+              <p>
+                I am a full-time Software Development Engineer, and I took part
+                in and now help with the UCSD Extension Web Development Boot
+                Camp. I am studying Computer Science and Math as a double major,
+                with hopes to delve more into Data Science and Machine Learning.
+                I am a quick study, and am able to pick up new languages,
+                frameworks and library in a short time, which helps me stay on
+                the cutting edge of industry standards and an asset to any
+                company.
+              </p>
+            </div>
           </div>
         </div>
       </div>
-      <div class="parallax"><img src="https://res.cloudinary.com/castrokev-in/image/upload/f_auto,q_auto/v1536869239/castrokev-in/moon.jpg"></div>
-    </div>
 
-    <!-- About Me -->
-    <div class="section white valign-wrapper">
-      <div class="container">
-        <div class="row">
+      <!-- Parallax Image -->
+      <div class="parallax-container">
+        <div class="parallax">
+          <img
+            src="https://res.cloudinary.com/castrokev-in/image/upload/f_auto,q_auto/v1536869259/castrokev-in/GoldenGate.jpg"
+            alt="Background -- Golden Gate"
+            async
+          />
+        </div>
+      </div>
+
+      <!-- Brief Experience Overview -->
+      <div class="section blue">
+        <div class="row container">
           <div class="col s12">
-            <h2 class="header">About Me</h2>
+            <h2 class="header">Technical Experience</h2>
             <p>
-              I am a full-time Junior Software Development Engineer, and I took part in and now help with the UCSD
-              Extension Web Development Boot Camp.
-              I am studying Computer Science and Math as a double major, with hopes to delve more into Data Science and
-              Machine Learning.
-              I am a quick study, and am able to pick up new languages, frameworks and library in a short time, which
-              helps me stay on the cutting edge of industry standards and an asset to any company.
+              While attending Claremont McKenna College studying for a Physics
+              and Mathematics Double Major, I started developing a passion for
+              Computer Science. What started as an elective class/hobby became
+              my sole focus for study.
+            </p>
+            <p>
+              I used the UCSD Extension Web Development Coding Boot Camp to
+              bolster my skills, which helped me understand MVC architecture, as
+              well as the MERN (MongoDb, Express.js, React.js, Node.js) stack.
+              In addition to the boot camp, I have picked up Python, and am
+              currently using C++ primarily in my studies, which I think gives
+              me unique experience simply because of the breadth of exposure to
+              different technical stacks and development environments.
+            </p>
+            <p>
+              In addition to development experience, I have been able to
+              leverage my 5 years of Technical Support Experience in Claremont
+              McKenna College and ESET North America to better improve my QA
+              testing, UX design, and troubleshooting skills. This is hugely
+              useful when testing a bug in development, as well as gives me
+              greater understanding of what is happening under-the-hood when
+              accessing websites or using applications.
             </p>
           </div>
         </div>
       </div>
-    </div>
+    </main>
 
-    <!-- Parallax Image -->
-    <div class="parallax-container">
-      <div class="parallax"><img src="https://res.cloudinary.com/castrokev-in/image/upload/f_auto,q_auto/v1536869259/castrokev-in/GoldenGate.jpg"></div>
-    </div>
-
-    <!-- Brief Experience Overview -->
-    <div class="section white">
-      <div class="row container">
-        <div class="col s12">
-          <h2 class="header">Technical Experience</h2>
-          <p>
-            While attending Claremont McKenna College studying for a Physics and Mathematics Double Major, I started
-            developing a passion for Computer Science.
-            What started as an elective class/hobby became my sole focus for study.
-          </p>
-          <p>
-            I used the UCSD Extension Web Development Coding Boot Camp to bolster my skills, which helped me understand
-            MVC architecture, as well as the MERN (MongoDb, Express.js, React.js, Node.js) stack.
-            In addition to the boot camp, I have picked up Python, and am currently using C++ primarily in my studies,
-            which I think gives me unique experience simply because of the breadth of exposure to different technical
-            stacks and development environments.
-          </p>
-          <p>
-            In addition to development experience, I have been able to leverage my 5 years of Technical Support
-            Experience in Claremont McKenna College and ESET North America to better improve my QA testing, UX design,
-            and troubleshooting skills.
-            This is hugely useful when testing a bug in development, as well as gives me greater understanding of what
-            is happening under-the-hood when accessing websites or using applications.
-          </p>
+    <footer class="page-footer purple">
+      <div class="footer-copyright purple">
+        <div class="container center-align">
+          <div class="row">
+            <div class="col s4">
+              <a href="mailto:jobs@castrokevin.com" class="black-text">Email</a>
+            </div>
+            <div class="col s4">
+              <a
+                href="https://www.linkedin.com/in/ortsacnivek/"
+                class="black-text"
+                >LinkedIn</a
+              >
+            </div>
+            <div class="col s4">
+              <a href="https://github.com/ortsaCniveK" class="black-text"
+                >GitHub</a
+              >
+            </div>
+          </div>
+          © Copyright 2019 Kevin Castro
         </div>
       </div>
-    </div>
-  </main>
+    </footer>
 
-  <footer class="page-footer orange lighten-1">
-    <div class="footer-copyright orange">
-      <div class="container center-align">
-        <div class="row">
-          <div class="col s4">
-            <a href="mailto:jobs@castrokevin.com" class="grey-text text-lighten-4">Email</a>
+    <!-- Sidenav for Mobile -->
+
+    <ul class="sidenav purple" id="mobile">
+      <li>
+        <div class="user-view">
+          <div class="background">
+            <img
+              class="responsive-img"
+              src="https://res.cloudinary.com/castrokev-in/image/upload/f_auto,q_auto/v1552202526/castrokev-in/Desk.jpg"
+              alt="desk"
+              async
+            />
           </div>
-          <div class="col s4">
-            <a href="https://www.linkedin.com/in/ortsacnivek/" class="grey-text text-lighten-4">LinkedIn</a>
-          </div>
-          <div class="col s4">
-            <a href="https://github.com/ortsaCniveK" class="grey-text text-lighten-4">GitHub</a>
-          </div>
+          <a href="#" class="sidenav-close">
+            <i class="material-icons">menu</i>
+          </a>
+          <a href="#profile">
+            <img
+              class="circle"
+              src="https://res.cloudinary.com/castrokev-in/image/upload/f_auto,q_auto/v1552202503/castrokev-in/kc.jpg"
+              alt="Profile Picture"
+              async
+            />
+          </a>
+          <a href="#name">
+            <span class="name">Kevin Castro</span>
+          </a>
+          <a href="mailto:jobs@castrokevin.com">
+            <span class="email">jobs@castrokevin.com</span>
+          </a>
         </div>
-        © Copyright 2018 Kevin Castro
-      </div>
-    </div>
-  </footer>
+      </li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="resume.html">Résumé</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
 
-  <!-- Sidenav for Mobile -->
-
-  <ul class="sidenav orange lighten-1" id="mobile">
-    <li>
-      <div class="user-view">
-        <div class="background">
-          <img class="responsive-img" src="https://res.cloudinary.com/castrokev-in/image/upload/f_auto,q_auto/v1552202526/castrokev-in/Desk.jpg" async/>
-        </div>
-        <a href="#" class="sidenav-close"><i class="material-icons">menu</i></a>
-        <a href="#profile">
-          <img class="circle" src="https://res.cloudinary.com/castrokev-in/image/upload/f_auto,q_auto/v1552202503/castrokev-in/kc.jpg" alt="Profile Picture" async>
-        </a>
-        <a href="#name">
-          <span class="name">Kevin Castro</span>
-        </a>
-        <a href="mailto:jobs@castrokevin.com">
-          <span class="email">jobs@castrokevin.com</span>
-        </a>
-      </div>
-    </li>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="projects.html">Projects</a></li>
-    <li><a href="resume.html">Résumé</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
-
-  <script type="text/javascript" src="./assets/js/materialize.min.js"></script>
-  <script type="text/javascript" src="./assets/js/index.js"></script>
-</body>
-
+    <script
+      type="text/javascript"
+      src="./assets/js/materialize.min.js"
+    ></script>
+    <script type="text/javascript" src="./assets/js/index.js"></script>
+  </body>
 </html>
