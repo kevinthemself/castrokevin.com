@@ -1,12 +1,13 @@
+@font-face {
+  font-family: 'Raleway', serif;
+  font-display: fallback;
+  src: url(https://fonts.gstatic.com/s/raleway/v13/1Ptug8zYS_SKggPNyC0IT4ttDfA.woff2) format('woff2');
+}
+
 body, nav ul a, nav .brand-logo{
   color: #F0EBF4 !important;
 }
 
-@font-face {
-  font-family: 'Raleway', serif;
-  font-display: auto;
-  src: url(https://fonts.gstatic.com/s/raleway/v13/1Ptug8zYS_SKggPNyC0IT4ttDfA.woff2) format('woff2');
-}
 
 a.grey-text.text-lighten-4{
   color: #A1C3D1 !important;
